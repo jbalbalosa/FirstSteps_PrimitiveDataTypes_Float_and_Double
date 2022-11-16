@@ -18,12 +18,16 @@ public class Main {
         System.out.println("Double minimum value: " + myMinDouble);
         System.out.println("Double maximum value: " + myMaxDouble);
 
-        //int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5 / 2;
+        float myFloatValue = 5f / 2f;
+        double myDoubleValue = 5d / 2f;
 
-        int myIntTotal = (int)myFloatValue + (int)myDoubleValue;
+        //int myIntTotal = (int)myFloatValue + (int)myDoubleValue;
 
-        System.out.println("myIntTotal: " + myIntTotal);
+        System.out.println("myIntValue: " + myIntValue);
+        System.out.println("myFloatValue: " + myFloatValue);
+        System.out.println("myDoubleValue: " + myDoubleValue);
+
+        //System.out.println("myIntTotal: " + myIntTotal);
     }
 }
